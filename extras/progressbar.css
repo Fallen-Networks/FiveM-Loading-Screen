@@ -1,0 +1,79 @@
+/* Color for single progressbar. */
+#pb0::-webkit-progress-value
+{
+    background: rgb(233, 198, 70);
+}
+
+/* Color for multiple progressbars, #1 */
+#pb1::-webkit-progress-value
+{
+    background-color: rgb(255, 102, 102);
+}
+
+/* Color for multiple progressbars, #2 */
+#pb2::-webkit-progress-value
+{
+    background-color: rgb(102, 194, 255);
+}
+
+/* Color for multiple progressbars, #3 */
+#pb3::-webkit-progress-value
+{
+    background-color: rgb(133, 224, 133);
+}
+
+/* Color for multiple progressbars, #4 */
+#pb4::-webkit-progress-value
+{
+    background-color: rgb(102, 102, 255);
+}
+
+/* Color for multiple progressbars, #5 */
+#pb5::-webkit-progress-value
+{
+    background-color: rgb(255, 239, 177);
+}
+
+/* -------------------------------------------------------*/
+
+
+.content-container
+{
+    position: absolute;
+    width: 100%;
+}
+
+/*
+    Progressbar styling.
+*/
+progress
+{
+    margin-top: 5px;
+}
+
+progress[value] 
+{
+   -webkit-appearance: none;
+   appearance: none;
+
+   width: 100%;
+   height: 30px;
+}
+
+progress[value]::-webkit-progress-bar
+{
+  background-color: rgb(60,60,60);
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress::-webkit-progress-value
+{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-play-state: running;
+    border-radius: 20px;
+    background-size: 60px 30px, 100% 100%, 100% 100%;
+}
+
+
