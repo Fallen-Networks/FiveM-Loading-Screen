@@ -22,23 +22,32 @@ var music ={
 
 var playing = true;
 
-function onKeyDown(event) {
-    switch (event.keyCode) {
-        case 32: //SpaceBar
-            if (playing) {
-                    pause();
-                    playing = false;
-                } else {
-                    resume();
-                    playing = true;
-                }
-            break;
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '32') {
+        // space bar
+        if (playing) {
+                pause();
+                playing = false;
+        } else {
+                resume();
+                playing = true;
         }
-    return false;
+    }
+    else if (e.keyCode == '37') {
+       // left arrow
+       back();
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+       skip();
+    }
+
 }
-
-window.addEventListener("keydown", onKeyDown, false);
-
 
 if('true')
 {

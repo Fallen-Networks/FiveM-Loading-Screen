@@ -8,6 +8,12 @@ files {
     'images/background1.jpg',
     'images/background2.jpg',
     'images/background3.jpg',
+    'images/background4.jpg',
+    'images/background5.jpg',
+    'images/background6.jpg',
+    'images/background7.jpg',
+    'images/background8.jpg',
+    'images/background9.jpg',
     'images/logo.png',
 
     --Loading JS Files--

@@ -1,5 +1,5 @@
 .crossfade > figure {
-  animation: imageAnimation 60s linear infinite 0s;
+  animation: imageAnimation 108s linear infinite 0s;
   backface-visibility: hidden;
   background-size: cover;
   background-position: 50% 50%;
@@ -29,12 +29,32 @@
 
 .crossfade > figure:nth-child(4) {
   animation-delay: 36s;
-  background-image: url('../images/background1.jpg');
+  background-image: url('../images/background4.jpg');
 }
 
 .crossfade > figure:nth-child(5) {
   animation-delay: 48s;
-  background-image: url('../images/background2.jpg');
+  background-image: url('../images/background5.jpg');
+}
+
+.crossfade > figure:nth-child(6) {
+  animation-delay: 60s;
+  background-image: url('../images/background6.jpg');
+}
+
+.crossfade > figure:nth-child(7) {
+  animation-delay: 72s;
+  background-image: url('../images/background7.jpg');
+}
+
+.crossfade > figure:nth-child(8) {
+  animation-delay: 84s;
+  background-image: url('../images/background8.jpg');
+}
+
+.crossfade > figure:nth-child(9) {
+  animation-delay: 96s;
+  background-image: url('../images/background9.jpg');
 }
 
 @keyframes 

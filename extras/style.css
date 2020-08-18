@@ -16,12 +16,12 @@ body {
 
 .main {
     font-size: 4vw;
-	font-weight: 400;
+	  font-weight: 400;
     position: absolute;
     line-height: 5px;
     left: 50%;
     top: 25%;
-    transform: translate(-50%, -50%);    
+    transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -40,16 +40,16 @@ body {
 .boxone {
     background-image: linear-gradient(30deg,rgba(18,20,22,0.8) 100%,#FFF 0%);
     box-shadow: 0 1.25rem 2.625rem 0 rgba(0,0,0,0.18);
-    width: 20rem;
-    height: 20rem;
+    width: 17vw;
+    height: 17.5vw;
     padding: 5px;
     border-style: solid;
     border-color: rgba(40,40,40,1);
     border-top-color: red;
     background-repeat: repeat;
     background-size: cover;
-    position:absolute;
-    left: 20%;
+    position: absolute;
+    left: 20%; 
     top: 45%;
     line-height: 1px;
 }
@@ -57,14 +57,14 @@ body {
 .boxsecond {
     background-image: linear-gradient(30deg,rgba(18,20,22,0.8) 100%,#FFF 0%);
     box-shadow: 0 1.25rem 2.625rem 0 rgba(0,0,0,0.18);
-    width: 20rem;
+    width: 17vw;
     padding: 5px;
     border-style: solid;
     border-color: rgba(40,40,40,1);
     border-top-color: red;
     background-repeat: repeat;
     background-size: cover;
-    position:absolute;
+    position: absolute;
     left: 40%;
     top: 45%;
     line-height: 5px;
@@ -73,15 +73,15 @@ body {
 .boxthird {
     background-image: linear-gradient(30deg,rgba(18,20,22,0.8) 100%,#FFF 0%);
     box-shadow: 0 1.25rem 2.625rem 0 rgba(0,0,0,0.18);
-    width: 20rem;
-    height: 20rem;
+    width: 17vw;
+    height: 17.5vw;
     padding: 5px;
     border-style: solid;
     border-color: rgba(40,40,40,1);
     border-top-color: red;
     background-repeat: repeat;
     background-size: cover;
-    position:absolute;
+    position: absolute;
     left: 60%;
     top: 45%;
     line-height: 5px;
@@ -89,8 +89,8 @@ body {
 
 .staffbox {
     background-image: linear-gradient(30deg,rgba(15,15,20,0.8) 100%,#FFF 0%);
-    width: 16rem;
-    height: 3rem;
+    width: 13.5vw;
+    height: 2.5vw;
     position: absolute;
     left: 11%;
     border-style: solid;
@@ -104,7 +104,7 @@ body {
     position: absolute;
     left: 2%;
     border-radius: 25px;
-    width: 47px;
+    width: 2.5vw;
 }
 
 #owner {
@@ -139,15 +139,15 @@ body {
 #musicinfo {
 	font-size: 1vw;
 	font-weight: 400;
-    position: absolute;
-    line-height: 5px;
-    left: 50%;
-    top: 90%;
-    transform: translate(-50%, -50%);    
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+  position: absolute;
+  line-height: 5px;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);    
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
 #player
@@ -220,7 +220,7 @@ hr.rainbow {
 
 hr.divider {
   border: 0; 
-  height: 1px; 
+  height: 1px;
   background-image: -webkit-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1));
   background-image: -moz-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1));
   background-image: -ms-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1));
@@ -232,11 +232,9 @@ hr.divider {
 	background-color: rgba(18,20,22,0.7);
 	height: 10px;
 
-	
 	margin-right: 3px;
 	margin-top: 5px;
 	
-
 	overflow: hidden;
 
 	position: fixed;
@@ -256,11 +254,10 @@ hr.divider {
 
 
 .rainbow{
-  width:800px;
-  height:5px;
+  width: 42vw;
+  height: 5px;
 
   position: absolute;
-
   top: 29%;
   left: 29%;
 
@@ -280,27 +277,27 @@ hr.divider {
 
 @-webkit-keyframes go{
   0%{background-position:0;}
-  100%{background-position:800px 0;}
+  100%{background-position:42vw 0;}
 
 }
 @-moz-keyframes go{
   0%{background-position:0;}
-  50%{background-position:400px 0;}
-  100%{background-position:800px 0;}
+  50%{background-position:21vw 0;}
+  100%{background-position:42vw 0;}
 
 }
 @-o-keyframes go{
   0%{background-position:0;}
-  100%{background-position:800px 0;}
+  100%{background-position:42vw 0;}
 
 }
 @-ms-keyframes go{
   0%{background-position:0;}
-  100%{background-position:800px 0;}
+  100%{background-position:42vw 0;}
 
 }
 @keyframes go{
   0%{background-position:0;}
-  100%{background-position:800px 0;}
+  100%{background-position:42vw 0;}
 
 }
