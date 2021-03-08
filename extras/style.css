@@ -2,7 +2,7 @@ body {
 	background-color: rgba(0,0,0,1);
 }
 
-.main,.sub,#musicinfo {
+.main,.sub,.logo,#musicinfo {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -14,9 +14,20 @@ body {
     user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
 .main {
     font-size: 4vw;
-	  font-weight: 400;
+	font-weight: 400;
     position: absolute;
     line-height: 5px;
     left: 50%;
@@ -111,7 +122,7 @@ body {
     box-shadow: 0 1.25rem 2.625rem 0 rgba(0,0,0,0.18), -3px 0px 0px 0px red;
 }
 
-#manager {
+#leader {
     box-shadow: 0 1.25rem 2.625rem 0 rgba(0,0,0,0.18), -3px 0px 0px 0px purple;
     position: absolute;
     top: 40%;
@@ -137,17 +148,17 @@ body {
 }
 
 #musicinfo {
-	font-size: 1vw;
-	font-weight: 400;
-  position: absolute;
-  line-height: 5px;
-  left: 50%;
-  top: 90%;
-  transform: translate(-50%, -50%);    
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+    font-size: 1vw;
+    font-weight: 400;
+    position: absolute;
+    line-height: 5px;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 #player
@@ -219,12 +230,12 @@ hr.rainbow {
 }
 
 hr.divider {
-  border: 0; 
-  height: 1px;
-  background-image: -webkit-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1));
-  background-image: -moz-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1));
-  background-image: -ms-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1));
-  background-image: -o-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1)); 
+    border: 0; 
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1));
+    background-image: -moz-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1));
+    background-image: -ms-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1));
+    background-image: -o-linear-gradient(left, rgba(18,20,22,1), rgba(200,0,0,.8), rgba(18,20,22,1)); 
 }
 
 .loadbar {
@@ -254,50 +265,49 @@ hr.divider {
 
 
 .rainbow{
-  width: 42vw;
-  height: 5px;
+    width: 42vw;
+    height: 5px;
 
-  position: absolute;
-  top: 29%;
-  left: 29%;
+    position: absolute;
+    top: 29%;
+    left: 29%;
 
-  background: -webkit-linear-gradient(left, red,orange,yellow,green,blue,indigo,violet, red);
-  background: -moz-linear-gradient(left, red,orange,yellow,green,blue,indigo,violet,red);
-  background: -o-linear-gradient(left, red,orange,yellow,green,blue,indigo,violet,red);
-  background: -ms-linear-gradient(left, red,orange,yellow,green,blue,indigo,violet,red);
-  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet,red);
-  background-repeat:repeat-x;
+    background: -webkit-linear-gradient(left, red,orange,yellow,green,blue,indigo,violet, red);
+    background: -moz-linear-gradient(left, red,orange,yellow,green,blue,indigo,violet,red);
+    background: -o-linear-gradient(left, red,orange,yellow,green,blue,indigo,violet,red);
+    background: -ms-linear-gradient(left, red,orange,yellow,green,blue,indigo,violet,red);
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet,red);
+    background-repeat:repeat-x;
   
-  -webkit-animation:go 3s linear infinite;
-  -moz-animation:go 3s linear infinite;
-  -o-animation:go 3s linear infinite;
-  -ms-animation:go 3s linear infinite;
-  animation:go 3s linear infinite;
+    -webkit-animation:go 3s linear infinite;
+    -moz-animation:go 3s linear infinite;
+    -o-animation:go 3s linear infinite;
+    -ms-animation:go 3s linear infinite;
+    animation:go 3s linear infinite;
 }
 
 @-webkit-keyframes go{
-  0%{background-position:0;}
-  100%{background-position:42vw 0;}
+    0%{background-position:0;}
+    100%{background-position:42vw 0;}
 
 }
 @-moz-keyframes go{
-  0%{background-position:0;}
-  50%{background-position:21vw 0;}
-  100%{background-position:42vw 0;}
+    0%{background-position:0;}
+    50%{background-position:21vw 0;}
+    100%{background-position:42vw 0;}
 
 }
 @-o-keyframes go{
-  0%{background-position:0;}
-  100%{background-position:42vw 0;}
+    0%{background-position:0;}
+    100%{background-position:42vw 0;}
 
 }
 @-ms-keyframes go{
-  0%{background-position:0;}
-  100%{background-position:42vw 0;}
+    0%{background-position:0;}
+    100%{background-position:42vw 0;}
 
 }
 @keyframes go{
-  0%{background-position:0;}
-  100%{background-position:42vw 0;}
-
+    0%{background-position:0;}
+    100%{background-position:42vw 0;}
 }
